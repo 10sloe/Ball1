@@ -30,7 +30,7 @@ public class App extends Application {
         stage.setScene(scene);
         stage.setTitle("Meine Skizze");
         stage.show();
-        skizze.setup(gc);  // Setup der Skizze aufrufen
+       // skizze.setup(gc);  // Setup der Skizze aufrufen
 
         AnimationTimer timer = new AnimationTimer() {
                 @Override
